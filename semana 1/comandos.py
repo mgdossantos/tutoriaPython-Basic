@@ -1,8 +1,11 @@
-#Este programa mostra uma mensagem
-print("Meu primeiro programa da Tutoria com a Marcela")
+# tudo que eu escrever aqui nao sera executado
+# documentacao
+# explicao
+print("Meu primeiro programa em Python")
 
 """
-    aqui voce pode fazer qualquer comentario que
-    nao sera executado e serve para voce documentr
-    e explicar seu codigo
+escrever aqui
+sera comentario
+de multiplas linhas
+e me ajuda a documentar meu codigo
 """
