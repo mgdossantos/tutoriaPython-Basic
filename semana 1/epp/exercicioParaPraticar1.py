@@ -10,16 +10,16 @@ def get_brl_to_cad():
     return brl_cad
 
 #Esse codigo traz a taxa usando uma API
-# real = float(input("Digite o valor a ser convertido:R$ "))
-# tax = get_brl_to_cad()
-# cad = real*tax
-#
-# print("Valor em CAD: ",cad)
-
-#Esse codigo coloca o codigo em hardcode
-
 real = float(input("Digite o valor a ser convertido:R$ "))
-tax = 0.253
+tax = get_brl_to_cad()
 cad = real*tax
 
 print("Valor em CAD: ",cad)
+
+# #Esse codigo coloca o codigo em hardcode
+#
+# real = float(input("Digite o valor a ser convertido:R$ "))
+# tax = 0.253
+# cad = real*tax
+
+#print("Valor em CAD: ", cad)

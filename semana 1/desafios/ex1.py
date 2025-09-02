@@ -4,5 +4,5 @@
 nome = input("Digite seu nome: ")
 anoNascimento = int(input("Digite o ano de nascimento: "))
 idadeAtual = 2025 -anoNascimento
-maiorIdade = "maior de idade" if idadeAtual > 18 else "menor de idade"
-print(nome, "voce eh", maiorIdade,".")
+resultado = "maior e igual de idade" if idadeAtual > 18 else "menor de idade"
+print(nome, "voce eh", resultado,".")
