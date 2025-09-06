@@ -1,8 +1,8 @@
-numero= int(input("Numero: "))
+numero = int(input("Digite o numero: "))
+#teste
+# variaveil operador relacional
 
-
-if numero >0:
-    # caso esse teste seja verdadeiro
-    print("Numero positivo!!")
-
-print("Estou fora do if")
+if numero>0:
+    #bloco a ser executado caso o teste seja verdadeiro
+    print("Numero positivo")
+print("estou fora do if")
