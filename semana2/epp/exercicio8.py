@@ -1,8 +1,8 @@
 respostas_positivas = 0
 
-resposta = input("Você ligou para a vítima? (sim/não): ").strip().lower()
+resposta = input("Você ligou para a vítima? (sim /não): ").strip().lower()
 if resposta == "sim":
-    respostas_positivas += 1
+    respostas_positivas = respostas_positivas +1
 
 resposta = input("Você estava na cena do crime? (sim/não): ").strip().lower()
 if resposta == "sim":
@@ -22,7 +22,12 @@ if resposta == "sim":
 
 if respostas_positivas == 2:
     print("Classificação: Suspeito")
-elif 3 <= respostas_positivas <= 4:
+#quando meu teste for verdadeiro
+# or: op1 or op2
+# para que o resultado do or seja verdadeiro
+# eu preciso de no minimo um dos dois verdadeiro
+#elif 3<= respostas_positivas <= 4
+elif respostas_positivas==3 or respostas_positivas==4:
     print("Classificação: Cúmplice")
 elif respostas_positivas == 5:
     print("Classificação: Assassino")
