@@ -7,4 +7,5 @@ A palavra secreta é "chupacabra". Quando ela for digitada o usuário receberá 
 
 Você não mostrará nenhuma palavra digitada pelo usuário.
 
+
 '''
