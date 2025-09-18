@@ -1,4 +1,4 @@
-#Crie um programa que peça dois números ao usuário e exiba: a soma, a diferença e o produto
+#Crie um programa que peça dois números ao usuário e exiba: a calculator, a diferença e o produto
 #entre eles.
 
 numero1 = float(input("Digite o primeiro numero: "))

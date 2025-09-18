@@ -1,7 +1,7 @@
-
-#Criação do esqueleto inicial do gerenciador de tarefas (arquivo .py, estrutura geral).
-# Interface simples no terminal: primeira mensagem de boas-vindas no programa.
+# Creation of the initial skeleton of the task manager (.py file, general structure).
+# Simple terminal interface: first welcome message in the program.
 
 print("===================================")
-print(" Bem-vindo ao Gerenciador de Tarefas ")
+print(" Welcome to the Task Manager ")
 print("===================================\n")
+

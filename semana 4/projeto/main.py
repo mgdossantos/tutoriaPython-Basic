@@ -21,19 +21,19 @@ opcao = input("Digite o número da opção desejada: ").strip()
 
 while(opcao!="3"):
     if opcao == "1":
-        ver_tarefas()
+        utils.ver_tarefas()
 
     elif opcao == "2":
         if contadorTarefas < 3:
             num_tarefa_para_adicionar = int(input("Qual número de tarefa deseja adicionar (ex: 1, 2, 3)? ").strip())
             nova_tarefa = input("Digite a nova tarefa: ").strip()
-            adicionar_tarefa(num_tarefa_para_adicionar, nova_tarefa)
+            utils.adicionar_tarefa(num_tarefa_para_adicionar, nova_tarefa)
         else:
             print("\nVocê já adicionou o número máximo de tarefas (3). Remova uma para adicionar outra.\n")
     else:
         print("\nOpção inválida. Tente novamente.\n")
 
-    mostrar_menu()
+    utils.mostrar_menu()
 
     # .strip() serve para garantir que a entrada do usuário não tenha espaços extras antes ou depois,
     # facilitando a verificação das opções.
