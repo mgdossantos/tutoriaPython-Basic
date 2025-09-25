@@ -1,19 +1,21 @@
-tarefas = {
-    "tarefa1": "pendente",
-    "tarefa2": "em andamento",
-    "tarefa3": "concluída"
+registroAluna= {
+    "nome": "Anna",
+    "idade": 26,
+    "nacionalidade": "Brasileira"
 }
 
-print(tarefas)
+registroAluna2= {
+    "nome": "Debora",
+    "idade": 37,
+    "nacionalidade": "Brasileira"
+}
 
-print(tarefas["tarefa1"])   # mostra 'pendente'
-print(tarefas.get("tarefa3"))  # outra forma -> 'concluída'
+#get: me mostra o valor para aquele indice especifico
+print(registroAluna.get("nome"))
 
-tarefas["tarefa1"] = "concluída"
-print(tarefas)
-
-tarefas["tarefa4"] = "pendente"
-print(tarefas)
-
-del tarefas["tarefa2"]
-print(tarefas)
+#keys: me mostra todas as chaves (indices)
+print(registroAluna.keys())
+#values: os valores do dicionario
+print(registroAluna2.values())
+#items: os valores do dicionario
+print(registroAluna2.items())
